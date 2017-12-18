@@ -11,11 +11,12 @@ CS 81
 who want to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong>
 their JavaScript <strong>skill</strong>.</p>
 <script>
-  var highlightedWords = document.getElementsByTagName("strong");
-   for (var i = 0; i < highlightedWords.length; i++) {
-     highlightedWords[i].addEventListener("mouseover", function () {
+    var highlightedWords = document.getElementsByTagName("strong");
+    for (var i = 0; i < highlightedWords.length; i++) {
+        highlightedWords[i].addEventListener("mouseover", function () {
             this.style.color = "red";
         })
+    }
 </script>
 </body>
 </html>
